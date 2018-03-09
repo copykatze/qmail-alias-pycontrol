@@ -46,6 +46,9 @@ def write_qmail_file(email_alias, choice):
 add_another = True
 email_alias = ''
 choice = ''
+
+print('Welcome to the qmail alias controller')
+print
 while add_another:
     email_alias = get_email_alias(email_alias)
 ### todo: check, if alias is allready known
