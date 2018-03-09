@@ -1,4 +1,4 @@
-# qmail-spamlist-pycontrol
+# qmail-alias-pycontrol
 
 def get_email_alias(email_alias):
     print('Enter new Spam Alias (replace . with :):')
